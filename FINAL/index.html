@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>VOYAGE</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="https://66.media.tumblr.com/8d1baa1e435b1d05525e10be0a095baa/tumblr_o8jsdx1ow31s8mouyo1_1280.gif"
+                        alt="">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name V">VOYAGE</span>
+                    <span class="profession W">WEB</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+
+            <div class="menu-bar">
+                <div class="menu">
+                    <li class="search-box">
+                        <i class='bx bx-search-alt-2 icon P'></i>
+                        <input type="text" placeholder="Search Here...">
+                    </li>
+                    <ul class="menu-links">
+                        <li class="nav-link jump-animation">
+                            <a href="#menu_BX">
+                                <i class='bx bx-home icon P'></i>
+                                <span class="text nav-text">HOME</span>
+                            </a>
+                        </li>
+                        <li class="nav-link jump-animation">
+                            <a href="#">
+                                <i class='bx bx-bell icon P'></i>
+                                <span class="text nav-text">NOTIFICATIONS</span>
+                            </a>
+                        </li>
+                        <li class="nav-link jump-animation">
+                            <a href="#">
+                                <i class='bx bx-heart icon P'></i>
+                                <span class="text nav-text">LIKES</span>
+                            </a>
+                        </li>
+                        <li class="nav-link jump-animation">
+                            <a href="#offe">
+                                <i class='bx bx-wallet icon P'></i>
+                                <span class="text nav-text">WALLET</span>
+                            </a>
+                        </li>
+                        <li class="nav-link jump-animation">
+                            <a href="#map">
+                                <i class='bx bx-map icon P'></i>
+                                <span class="text nav-text">MAP</span>
+                            </a>
+                        </li>
+                        <li class="nav-link jump-animation">
+                            <a href="#" id="colorLink">
+                                <i class='bx bxs-color icon P'></i>
+                                <span class="text nav-text">COLOR</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bottom-content">
+                    <li class="">
+                        <a href="CONTACT/index.html">
+                            <i class='bx bx-child icon P'></i>
+                            <span class="text nav-text">ABOUT US</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            <i class='bx bx-log-out icon P'></i>
+                            <span class="text nav-text">Log-Out</span>
+                        </a>
+                    </li>
+                    <li class="mode">
+                        <div class="moon-sun P">
+                            <i class='bx bx-sun icon sun'></i>
+                            <i class='bx bx-moon icon moon'></i>
+                        </div>
+
+                        <span class="mode-text text">Light Mode</span>
+
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </header>
+    </nav>
+    <section class="home">
+        <div class="text">
+            <header>
+                <nav>
+                    <h4></h4>
+                    <ul id="menu_BX">
+                        <div class="earth"></div>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#offe">Packages</a></li>
+                        <li><a href="#ho">Hotels</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="CONTACT/index.html">Contact Us</a></li>
+                        <li><a href="N/index.html">Register</a></li>
+
+
+                    </ul>
+                    <i class="bi bi-three-dots"></i>
+                </nav>
+                <div class="content">
+                    <div class="cont_bx">
+                        <h1>Best Destination for You and Your Family</h1>
+                        <p>Make the Bright and Beautiful Memories Together.</p>
+                        <button>Start your Search</button>
+                    </div>
+                    <div class="trip_bx">
+                        <div class="search_bx">
+                            <div class="card">
+                                <h4>Location<i class="bi bi-caret-down-fill"></i></h4>
+                                <input type="text" placeholder="Enter you Destination">
+                            </div>
+                            <div class="card">
+                                <h4>Date<i class="bi bi-caret-down-fill"></i></h4>
+                                <input type="date">
+                            </div>
+                            <div class="card">
+                                <h4>Members<i class="bi bi-caret-down-fill"></i></h4>
+                                <input type="number" placeholder="Enter your Members">
+                            </div>
+                            <input type="button" value="Explore Now">
+                        </div>
+                        <div class="travel_bx">
+                            <h4>Countries to Travel</h4>
+                            <div class="cards">
+                                <div class="card">
+                                    <h3>INDIA <img
+                                            src="https://cdn.pixabay.com/photo/2012/04/10/23/03/india-26828_640.png"
+                                            alt=""></h3>
+                                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                                        alt="">
+                                    <div class="btn_city">
+                                        <a href="#">Read Now</a>
+                                        <h5>Agra <br><span>$460</span></h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h3>USA<img
+                                            src="https://img.freepik.com/premium-vector/flag-usa-correct-proportion-colors_738121-541.jpg"
+                                            alt=""></h3>
+                                    <img src="https://facts.net/wp-content/uploads/2023/07/50-facts-about-united-states-of-america-1688374179.jpeg" alt="">
+                                    <div class="btn_city">
+                                        <a href="#">Read Now</a>
+                                        <h5>New York City<br><span>$460</span></h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h3>JAPAN<img
+                                            src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png"
+                                            alt=""></h3>
+                                    <img src="https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg"
+                                        alt="">
+                                    <div class="btn_city">
+                                        <a href="#">Read Now</a>
+                                        <h5>Sakura<br><span>$460</span></h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <h3>THAILAND<img
+                                            src="https://www.pngitem.com/pimgs/m/308-3083582_thai-flag-png-transparent-png.png"
+                                            alt=""></h3>
+                                    <img src="https://www.holidify.com/images/bgImages/BANGKOK%20.jpg" alt="">
+                                    <div class="btn_city">
+                                        <a href="#">Read Now</a>
+                                        <h5>Bangkok<br><span>$460</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="offers" id="ho">
+                <h1>Our Best Hotels Packages for You</h1>
+                <p>Choose your Best Hotels</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>ITC</h3>
+                        <div class="img_txt">
+                            <img id="clickImage"
+                                src="https://c4.wallpaperflare.com/wallpaper/360/515/601/night-in-las-vegas-bellagio-luxury-hotel-casino-hd-wallpapers-for-mobile-phones-laptops-and-pc-1920%C3%971080-wallpaper-preview.jpg"
+                                alt="">
+                        </div>
+                        <div class="btn_city2">
+                            <a href="#">Book Now</a>
+                            <h5>Starting From <span>$45/room</span></h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Radisson</h3>
+                        <div class="img_txt">
+                            <img id="clickImage2"
+                                src="https://media.radissonhotels.net/image/radisson-hotel-agra/exterior/16256-123873-f70046967_3xl.jpg?impolicy=HomeHero"
+                                alt="">
+                        </div>
+                        <div class="btn_city2">
+                            <a href="#">Book Now</a>
+                            <h5>Starting From <span>$40/room</span></h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Imperial</h3>
+                        <div class="img_txt">
+                            <img id="clickImage3"
+                                src="https://media.architecturaldigest.com/photos/5b0d6fe375a4f940de3da906/16:9/w_2560%2Cc_limit/PJG_MG_9752_F_Jeremy%2520Bittermann.jpg"
+                                alt="">
+                        </div>
+                        <div class="btn_city2">
+                            <a href="#">Book Now</a>
+                            <h5>Starting From <span>$50/room</span></h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Royal Orchid</h3>
+                        <div class="img_txt">
+                            <img id="clickImage4"
+                                src="https://images.travelandleisureasia.com/wp-content/uploads/sites/6/2023/01/11171338/review-park-hyatt-bangkok_1.jpg"
+                                alt="">
+                        </div>
+                        <div class="btn_city2">
+                            <a href="#">Book Now</a>
+                            <h5>Starting From <span>$60/room</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map" id="map">
+                <h1>MAP</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9873.44691416674!2d-74.01181918850489!3d40.71281747950957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1689697731196!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="offers2" id="offe">
+                <h1>Best Tour Packages Offers for You</h1>
+                <p>Choose your next Destination</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Mumbai</h3>
+                        <div class="txt_img">
+                            <img src="https://c0.wallpaperflare.com/preview/689/480/950/mumbai-india-gateway-of-india-mumbai-seaside.jpg"
+                                alt="">
+                            <h4>Include:Air Ticket, Hotel, Breakfast, Tours, Airpot Transfer</h4>
+                        </div>
+                        <div class="cont_bx">
+                            <div class="price">
+                                <div class="heart_chat">
+                                    <i class='bx bxs-heart'><span>86415</span></i>
+                                    <i class='bi-chat-fill'><span>4586</span></i>
+                                </div>
+                                <div class="info_price">
+                                    <a href="#">More Info</a>
+                                    <h4>$2648</h4>
+                                </div>
+                            </div>
+                            <div class="days">5 Days <br>INDIA</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Dubai</h3>
+                        <div class="txt_img">
+                            <img src="https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt="">
+                            <h4>Include:Air Ticket, Hotel, Breakfast, Tours, Airpot Transfer</h4>
+                        </div>
+                        <div class="cont_bx">
+                            <div class="price">
+                                <div class="heart_chat">
+                                    <i class='bx bxs-heart'><span>86415</span></i>
+                                    <i class='bi-chat-fill'><span>4586</span></i>
+                                </div>
+                                <div class="info_price">
+                                    <a href="#">More Info</a>
+                                    <h4>$2648</h4>
+                                </div>
+                            </div>
+                            <div class="days">6 Days <br>DUBAI</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Egypt</h3>
+                        <div class="txt_img">
+                            <img src="https://facts.net/wp-content/uploads/2023/06/38-facts-about-egypt-1688101892.jpeg"
+                                alt="">
+                            <h4>Include:Air Ticket, Hotel, Breakfast, Tours, Airpot Transfer</h4>
+                        </div>
+                        <div class="cont_bx">
+                            <div class="price">
+                                <div class="heart_chat">
+                                    <i class='bx bxs-heart'><span>86415</span></i>
+                                    <i class='bi-chat-fill'><span>4586</span></i>
+                                </div>
+                                <div class="info_price">
+                                    <a href="#">More Info</a>
+                                    <h4>$2648</h4>
+                                </div>
+                            </div>
+                            <div class="days">4 Days <br>EGYPT</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>South Korea</h3>
+                        <div class="txt_img">
+                            <img src="https://www.kkday.com/en/blog/wp-content/uploads/kr_shutterstock_629824091.jpg"
+                                alt="">
+                            <h4>Include:Air Ticket, Hotel, Breakfast, Tours, Airpot Transfer</h4>
+                        </div>
+                        <div class="cont_bx">
+                            <div class="price">
+                                <div class="heart_chat">
+                                    <i class='bx bxs-heart'><span>86415</span></i>
+                                    <i class='bi-chat-fill'><span>4586</span></i>
+                                </div>
+                                <div class="info_price">
+                                    <a href="#">More Info</a>
+                                    <h4>$2648</h4>
+                                </div>
+                            </div>
+                            <div class="days">7 Days <br>South.K</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="destination">
+                <div class="des_bx">
+                    <h4>Our Destination</h4>
+                    <p>Choose you next Destination</p>
+                    <li>India</li>
+                    <li>Indonesia</li>
+                    <li>Vietnam</li>
+                    <li>USA</li>
+                    <li>Saudi Arabia</li>
+                    <li>Brazil</li>
+                    <li>Norway</li>
+                    <li>Switzerland</li>
+                    <h6 class="I">Include:</h6>
+                    <h6>Air Ticket, Hotel, Breakfast, Tours, Airport Transfer</h6>
+                    <button>CHECK IT OUT</button>
+                </div>
+                <div class="img_bx">
+                    <img src="https://cdn.wallpapersafari.com/2/13/pwQtcO.jpg" alt="">
+                    <div class="msg">
+                        <img src="https://img.freepik.com/premium-photo/india-country-flag-sphere-with-white-shadow-illustration_532963-1486.jpg"
+                            alt="">
+                        <div class="cont">
+                            <h4>India</h4>
+                            <div class="icon">
+                                <i class='bx bxs-heart'><span>86415</span></i>
+                                <i class='bi-chat-fill'><span>4586</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <img src="https://img.freepik.com/premium-vector/usa-flag-round-circle-vector-icon_601748-26445.jpg?w=2000"
+                            alt="">
+                        <div class="cont">
+                            <h4>USA</h4>
+                            <div class="icon">
+                                <i class='bx bxs-heart'><span>86415</span></i>
+                                <i class='bi-chat-fill'><span>3586</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <h2>Believe it & Try it</h2>
+                <p>Always be with you , just & only</p>
+                <P class="V">"VOYAGE - WEB"</P>
+                <div class="accept">
+                    <h4 class="W">WE ACCEPTED THE FOLLOWING</h4>
+                    <ul>
+                        <li><img src="https://img.freepik.com/free-icon/visa_318-202971.jpg" alt=""></li>
+                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt=""></li>
+                        <li><img src="https://logos-world.net/wp-content/uploads/2020/07/PayPal-Logo.png" alt=""></li>
+                        <li><img src="https://1000logos.net/wp-content/uploads/2021/03/Paytm_Logo.jpg" alt=""></li>
+                        <li><img src="https://images.news18.com/ibnlive/uploads/2020/02/UPI.jpg?impolicy=website&width=360&height=240" alt=""></li>
+                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Google_Pay_Logo.svg/1200px-Google_Pay_Logo.svg.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Put your best feelings on our Website">
+                    <button>Feedback</button>
+                </div>
+                <ul>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt=""><br><h6>INSTAGRAM</h6></li>
+                    <li><img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202307/x_twitter-sixteen_nine.jpg" alt=""><br><h6>TWITTER</h6></li>
+                    <li><img src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=2000" alt=""><br><h6>YOUTUBE</h6></li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt=""><br><h6>FACEBOOK</h6></li>
+                    <li><img src="https://logowik.com/content/uploads/images/threads-by-instagram9092.logowik.com.webp" alt=""><br><h6>THREAD</h6></li>
+                    <li><img src="https://static.vecteezy.com/system/resources/previews/002/432/911/original/social-media-snapchat-original-latest-logo-free-vector.jpg" alt=""><br><h6>SNAPCHAT</h6></li>
+                </ul>
+                <p class="G"><img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" alt="">Voyage.web086@gmail.com</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

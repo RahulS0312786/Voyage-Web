@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Lobster&family=Patua+One&family=Playfair+Display:wght@400;600&family=Poppins&family=Roboto+Condensed&family=Roboto+Slab:wght@600&family=Roboto:wght@500&family=Staatliches&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    background-image: url('https://i.pinimg.com/originals/ab/4d/24/ab4d2413c366181ff128199f039bd7b1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+
+.about,
+.skills,
+.certifications,
+.lang,
+.hobb,
+.info {
+    padding: 10px 60px;
+    margin: 10px 150px;
+    border-radius: 20px;
+}
+
+.about {
+    margin-top: 0;
+}
+
+.header {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.header>.logo {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.header .logo img {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 80px;
+    transition: .1s linear;
+    cursor: pointer;
+}
+.header .logo img:hover{
+    border-radius: 10px;
+}
+.container hr {
+    border-color:teal;
+    width: 238px;
+}
+
+.container h1 {
+    color:cadetblue;
+    margin-left:586px;
+    font-size: 42px;
+    margin-top:-2px;
+}
+
+.container h2 {
+    margin-left: 696px;
+    color: white;
+    font-size: 30px;
+    margin-top: -14px;
+}
+
+.about {
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+}
+.about h2{
+    font-size: 38px;
+    margin-top:0;
+}
+.skills {
+    background:linear-gradient(teal,seagreen);
+    color: white;
+}
+.skills .S{
+    font-size: 38px;
+}
+.S img{
+    margin-left: 45px;
+    height:56px;
+    width:56px;
+    border-radius: 26px;
+}
+.certifications {
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+}
+
+.lang {
+    background:linear-gradient(teal,seagreen);
+    color: white;
+}
+
+.hobb {
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.2);
+}
+
+.info {
+    background:linear-gradient(teal,seagreen);
+    color: white;
+}
+
+.footer {
+    background:antiquewhite;
+    color: teal;
+    text-align: center;
+    line-height: 40px;
+}
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+.logo img {
+    height: 106px;
+    width: 106px;
+    border-radius: 54px;
+}
+.certifications .Py img {
+    height: 54px;
+    width: 54px;
+    margin-left:38px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.certifications .Py img:hover{
+    height:59px;
+    width:59px;
+}
+.certifications .AW{
+    font-size: 24px;
+}
+.certifications .AW img{
+    height: 54px;
+    width: 80px;
+    margin-left: 44px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.certifications .AW img:hover{
+    height:58px;
+    width:86px;
+}
+.certifications .T img {
+    height: 62px;
+    width: 142px;
+    margin-left: 28px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.certifications .T img:hover{
+    height:65px;
+    width:146px;
+}
+.certifications .T{
+    font-size: 24px;
+}
+.certifications h2{
+    font-size: 38px;
+}
+.certifications .Py{
+    font-size: 24px;
+}
+.Py img{
+    margin-left:4px;
+}
+.skills img {
+    height: 56px;
+    width: 56px;
+}
+.skills .J{
+    font-size:24px;
+}
+.skills .J img {
+    height: 64px;
+    width: 50px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.skills .J img:hover{
+    height:69px;
+    width:55px;
+}
+.J img{
+    margin-left:100px;
+}
+.P{
+    font-size: 24px;
+}
+.H{
+    font-size: 24px;
+}
+.H img{
+    height:64px;
+    width:50px;
+    margin-left:80px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.H img:hover{
+    height:69px;
+    width:55px;
+}
+.C{
+    font-size: 24px;
+}
+.C img{
+    height:64px;
+    width:50px;
+    margin-left:104px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.C img:hover{
+    height:68px;
+    width:54px;
+}
+.B{
+    font-size:24px;
+}
+.B img{
+    height:65px;
+    width:70px;
+    margin-left:30px;
+    transition: .2s linear;
+    cursor: pointer;
+}
+.B img:hover{
+    height:70px;
+    width:75px;
+}
+.JS{
+    font-size: 24px;
+}
+.JS img{
+    height:76px;
+    width:140px;
+    margin-left:-4px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.JS img:hover{
+    height:82px;
+    width:146px;
+}
+.P img{
+    height:64px;
+    width:50px;
+    margin-left:75px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.P img:hover{
+    height:69px;
+    width:55px;
+}
+.lang .Hi img {
+    height: 56px;
+    width: 60px;
+    transition: .2s linear;
+}
+.lang .Hi,
+.lang .E{
+    font-size: 24px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.lang .Hi:hover{
+    font-size:27px;
+}
+.lang .E:hover{
+    font-size: 27px;
+}
+.hobb .fo img,
+.hobb .mu img,
+.hobb .co img,
+.hobb .mov img{
+    height: 52px;
+    width: 52px;
+}
+.hobb h2{
+    font-size: 38px;
+}
+.hobb .fo,
+.hobb .mu,
+.hobb .co,
+.hobb .mov
+{
+    font-size: 24px;
+}
+.hobb .fo img{
+    margin-left:38px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.hobb .fo img:hover{
+    border-radius: 5px;
+    height:58px;
+    width:58px;
+}
+.hobb .mu img{
+    margin-left:58px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.hobb .mu img:hover{
+    border-radius: 5px;
+    height:58px;
+    width:58px;
+}
+.hobb .co img{
+    margin-left:36px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.hobb .co img:hover{
+    border-radius: 5px;
+    height:58px;
+    width:58px;
+}
+.hobb .mov img{
+    margin-left:46px;
+    border-radius:11px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.hobb .mov img:hover{
+    border-radius: 1px;
+    height:58px;
+    width:58px;
+}
+.hobb .B i {
+    height: 50px;
+    width: 50px;
+}
+.lang h2{
+    font-size: 38px;
+}
+.info h2{
+    font-size: 38px;
+}
+.info ul{
+    font-size: 18px;
+}
